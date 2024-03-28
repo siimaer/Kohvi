@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+ }
+
+ .intro-image { 
+     background-image: url("../img/How-To-Start-A-Coffee-Shop-Business-A-Complete-Guide.jpg");
+     background-size: cover;
+     height: 600px;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-attachment: fixed;
+ }
+
+ .intro-image_link a {
+     background-color: ghostwhite;
+     color: black;
+     border: 2px solid black;
+     display: inline-block;
+     font-size: 3rem;
+     padding: 2rem;
+     text-decoration: none;
+     text-transform: uppercase;
+     transition: all 1s ease-in-out;
+  }
+
+  .intro-image_link a:hover {
+      transform: scale(1.2);
+   }
+
+   .intro-text {
+    height: 250px;
+    background-color: #7a654d;
+    color: #c9c0aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+ }
+
+ .intro-text__textbox h3{
+ font-size: 2rem;
+ text-transform: uppercase;
+ margin-bottom: 1rem;
+}
+
+.quality_image {
+    height: 450px;
+    background-image: url("../img/DLZYYDC2DFGW5NJAA4UJL3A3UU.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    }
+
+    .quality-image_link a {
+        background-color: white;
+        color: rgb(104, 26, 26);
+        border: 2px solid black;
+        display: inline-block;
+        font-size: 3rem;
+        padding: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out;
+
+    }
+    .quality-image_link a:hover { 
+        transform: scale(1.2);  
+    }
+
+    .quality-text {
+    height: 250px;
+    background-color: #cca37e;
+    color: #75593bc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    }  
+    
+    .quality-text_textbox h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;    
+    }
+
+    .origin-image {
+    background-image: url("../img/oriiiginimageee.jpg");
+    height: 450px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+    }
+
+    .origin-image_link a {
+        background-color: white;
+        color: rgb(104, 26, 26);
+        border: 2px solid black;
+        display: inline-block;
+        font-size: 3rem;
+        padding: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out
+
+    }
+
+    .origin-image_link a:hover { 
+        transform: scale(1.2);  
+    }
+
+    .origin-text {
+        height: 250px;
+        background-color: #cca37e;
+        color: #75593bc8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15rem;
+           
+    }
+
+    .origin-text_textbox h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;    
+    }
+
+
+    .footer {
+     height: 130px; 
+     background-color: rgba(122, 109, 198, 0.199);
+     color: #b7bccb;  
+     font-size: 1.5rem;
+     padding-top: 2rem;
+    }
+
+    .footer ul li {
+    display: inline-block;    
+    margin: 1rem;
+    }
+
+    .footer ul li a {
+    color: #8e9cc5;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
